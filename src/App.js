@@ -14,7 +14,6 @@ import Giveback from './components/givebackbook/giveback.js'
 import GivebackAdmin from './components/givebackbook/givebackadmin.js'
 import StoreUpdate from './components/store/updatestore.js'
 import AddBook from './components/store/addbook.js'
-import Showimg from './showimg.js'
 import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 function App() {
@@ -114,12 +113,6 @@ function App() {
           <div>
             <Header/>
               <AddBook/>
-          </div>
-        }>
-        </Route>
-        <Route path={'/show'} element = {
-          <div>
-            <Showimg/>
           </div>
         }>
         </Route>
