@@ -1,0 +1,87 @@
+.divDetailBorrow {
+    height: 650px;
+    width: 1000px;
+    /* background-color: rebeccapurple; */
+    /* flex-basis: 65%; */
+    /* border: 1px solid black; */
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tableBorrow {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.thead{
+    font-weight: bold;
+    color: black;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    /* Các thuộc tính CSS khác */
+  }
+.tdata{
+    font-weight: bold;
+    color: rgb(243, 237, 237);
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+.trow:nth-child(even){
+    background-color: gray;
+}
+.trow:nth-child(odd){
+    background-color: rgb(54, 51, 51);
+}
+.tdataLast{
+    background-color: white;
+    height: 45px;
+}
+.divTable{
+    flex-basis: 90%;
+    height: 80%;
+    
+}
+.divSearchTable{
+    flex-basis: 5%;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.divBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.btn{
+    width: 100%;
+    /* height: 30px; */
+    height: 50%;
+    /* margin-top: -5px; */
+    /* color: red; */
+    font-size: 11px;
+    font-weight: bold;
+}
+.divSearchInput{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bookName{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* .btnUpdate{
+    font-size: 12px;
+} */
+
+  

@@ -1,0 +1,131 @@
+/* .divStore{
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 550px;
+    width: 1050px;
+    display: flex;
+} */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: end;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    /* margin: 20px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+.buttonClose{
+    text-align: end;
+}
+
+.divInput {
+    height: 40px;
+    width: 210px;
+    margin-left: 40px;
+}
+.iput{
+    width: 210px;
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-left: 30px; */
+}
+.btnConfirm{
+    margin-top: 25px;
+}
+.close{
+    
+    
+}
+
+.tableBorrow {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+.divTable {
+    /* flex-basis: 90%; */
+    height: 80%;
+    margin-left: 250px;
+}
+
+.thead {
+    font-weight: bold;
+    color: black;
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    /* Các thuộc tính CSS khác */
+}
+
+.tdata {
+    font-weight: bold;
+    color: black;
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.thead:nth-child(2) {
+    width: 200px;
+}
+
+.thead:nth-child(4) {
+    width: 150px;
+}
+
+.thead:nth-child(3) {
+    width: 200px;
+}
+
+.thead:nth-child(5) {
+    width: 100px;
+}
+
+.thead:nth-child(6) {
+    width: 200px;
+}
+
+.divBtn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    margin: 5px;
+    font-size: 10px;
+}

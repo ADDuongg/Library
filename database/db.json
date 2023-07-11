@@ -1,0 +1,301 @@
+{
+  "login": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "1",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "duong",
+      "password": "doremon",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "username": "user1",
+      "password": "1",
+      "role": "user"
+    }
+  ],
+  "book": [
+    {
+      "id": "1",
+      "name": "Sapiens: Từ Quá Khứ Đến Hiện Tại",
+      "picture_url": "/asset/book1.jpg",
+      "description": "Quyển sách khám phá lịch sử của nhân loại từ khi chúng ta là những con vật chạy trốn đến việc xây dựng các đế chế và cuộc cách mạng công nghiệp.",
+      "type": "Lịch sử, Non-fiction",
+      "author": "Yuval Noah Harari",
+      "year": "2011",
+      "detail": "Sapiens: Từ Quá Khứ Đến Hiện Tại cung cấp một cái nhìn tổng quan về lịch sử của loài người, từ khi chúng ta là những sinh vật nguyên thủy sống trong tự nhiên cho đến hiện tại, khi chúng ta đã có khả năng thay đổi môi trường và ảnh hưởng đến hành tinh. Cuốn sách chia thành bốn phần chính: Cuộc cách mạng Cognitif, Cuộc cách mạng Nông nghiệp, Cuộc cách mạng Công nghiệp và Cuộc cách mạng Thông tin.",
+      "number": 21
+    },
+    {
+      "id": "2",
+      "name": "The Great Gatsby",
+      "picture_url": "/asset/book2.jpg",
+      "description": "Tác phẩm vĩ đại của văn học Mỹ, mô tả cuộc sống của tầng lớp thượng lưu vào thập kỷ 1920 thông qua câu chuyện tình đầy bi kịch của Jay Gatsby và Daisy Buchanan.",
+      "type": "Tiểu thuyết, Kinh điển",
+      "author": "F. Scott Fitzgerald",
+      "year": "1925",
+      "detail": "The Great Gatsby là một câu chuyện tình yêu, xa hoa và thất bại, đặt trong bối cảnh cuộc sống xa hoa của tầng lớp thượng lưu ở miền Đông nước Mỹ vào những năm 1920. Qua góc nhìn của nhân vật chính Nick Carraway, một nhà văn trẻ mới đến New York, chúng ta được tiếp cận với thế giới của Jay Gatsby, một triệu phú bí ẩn và bị lôi cuốn, và cuộc tình đầy bi kịch giữa Gatsby và Daisy Buchanan, một cô gái thú vị và thuộc tầng lớp thượng lưu.",
+      "number": 28
+    },
+    {
+      "id": "3",
+      "name": "To Kill a Mockingbird",
+      "picture_url": "/asset/book3.jpg",
+      "description": "Quyển tiểu thuyết tưởng tượng về việc giáo dục trẻ em và cuộc chiến tranh chống phân biệt chủng tộc tại miền Nam nước Mỹ.",
+      "type": "Tiểu thuyết, Kinh điển",
+      "author": "Harper Lee",
+      "year": "1960",
+      "detail": "To Kill a Mockingbird là một câu chuyện nói về cuộc sống và cuộc chiến chống phân biệt chủng tộc tại miền Nam nước Mỹ vào những năm 1930. Qua góc nhìn của nhân vật chính Scout Finch, một cô bé tuổi thiếu niên, chúng ta được chứng kiến cuộc sống trong thị trấn nhỏ Maycomb, Alabama. Scout cùng với anh trai Jem và bạn thân Dill, trải qua những cuộc phiêu lưu và khám phá, đồng thời chứng kiến những sự phân biệt chủng tộc và sự bất công trong hệ thống tư pháp.",
+      "number": 15
+    },
+    {
+      "id": "4",
+      "name": "The Alchemist",
+      "picture_url": "/asset/book4.jpg",
+      "description": "Một câu chuyện phiêu lưu về một người lính quyết định bỏ nghề để đi tìm kiếm những bí mật của cuộc sống và ý nghĩa đích thực của nó.",
+      "type": "Tiểu thuyết, Tâm lý học",
+      "author": "Paulo Coelho",
+      "year": "1988",
+      "detail": "The Alchemist là một câu chuyện về một người lính Andalusia tên là Santiago, người đam mê theo đuổi giấc mơ của mình và khám phá ý nghĩa đích thực của cuộc sống. Qua hành trình của Santiago, chúng ta được đưa vào một thế giới phép thuật và bí ẩn, trong đó những sự kiện và nhân vật đại diện cho những khía cạnh khác nhau của cuộc sống.",
+      "number": 49
+    },
+    {
+      "id": "5",
+      "name": "The Catcher in the Rye",
+      "picture_url": "/asset/book5.jpg",
+      "description": "Câu chuyện xoay quanh cuộc sống của Holden Caulfield, một thiếu niên trẻ tuổi đầy phê phán và tìm kiếm ý nghĩa cuộc sống.",
+      "type": "Tiểu thuyết, Kinh điển",
+      "author": "J.D. Salinger",
+      "year": "1951",
+      "detail": "The Catcher in the Rye kể về cuộc sống của Holden Caulfield, một thiếu niên trẻ tuổi với tâm trạng phê phán và cảm giác bất mãn đối với xã hội. Holden là một nhân vật phản kháng và đầy đối đầu với các giá trị và chuẩn mực của xã hội, và quyển sách tập trung vào hành trình tâm lý và phiêu lưu của anh ta trong New York trong những ngày cuối cùng trước khi anh phải đối mặt với việc trưởng thành.",
+      "number": 15
+    },
+    {
+      "id": "6",
+      "name": "The Lord of the Rings",
+      "picture_url": "/asset/book6.jpg",
+      "description": "Cuộc phiêu lưu trên vùng đất hư cấu Middle-earth, nơi đấu tranh giữa các lực lượng tốt và xấu để giành quyền sở hữu chiếc nhẫn quyền năng.",
+      "type": "Tiểu thuyết, Kỳ ảo",
+      "author": "J.R.R. Tolkien",
+      "year": "1954-1955",
+      "detail": "The Lord of the Rings là một cuộc phiêu lưu kỳ diệu trên vùng đất hư cấu có tên Middle-earth. Câu chuyện xoay quanh cuộc hành trình của một nhóm nhân vật đa dạng, bao gồm Hobbit Frodo Baggins và bạn bè của anh ta, trong việc tiêu diệt một chiếc nhẫn quyền năng độc ác được gọi là One Ring.",
+      "number": 15
+    },
+    {
+      "id": "7",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "picture_url": "/asset/book7.jpg",
+      "description": "Cuốn sách đầu tiên trong loạt tiểu thuyết phép thuật Harry Potter, mô tả cuộc hành trình của Harry Potter trong trường học phù thủy Hogwarts.",
+      "type": "Tiểu thuyết, Kỳ ảo",
+      "author": "J.K. Rowling",
+      "year": "1997",
+      "detail": "Harry Potter and the Philosopher's Stone kể về cuộc sống của một cậu bé mang tên Harry Potter, người đã được gia đình nuôi dưỡng bình thường như một đứa trẻ bình thường, nhưng sau đó phát hiện ra rằng anh là một phù thủy. Cuộc sống của Harry thay đổi khi anh được nhận vào trường Hogwarts School of Witchcraft and Wizardry, một trường học ma thuật danh giá, và bắt đầu cuộc hành trình của mình trong thế giới phép thuật.",
+      "number": 30
+    },
+    {
+      "id": "8",
+      "name": "The Da Vinci Code",
+      "picture_url": "/asset/book8.jpg",
+      "description": "Một câu chuyện ly kỳ xoay quanh Robert Langdon, một nhà nghiên cứu biểu tượng học, trong việc giải mã các bí ẩn lịch sử và tìm kiếm một bí mật cổ đại.",
+      "type": "Tiểu thuyết, Hành động, Bí ẩn",
+      "author": "Dan Brown",
+      "year": "2003",
+      "detail": "The Da Vinci Code kể về cuộc phiêu lưu của nhà nghiên cứu tượng học Robert Langdon khi anh tham gia vào một cuộc truy tìm để giải mã các dấu hiệu và bí mật ẩn sau bức tranh Mona Lisa của Leonardo da Vinci. Cuộc truy tìm này đưa Langdon và Sophie Neveu, một nữ cảnh sát Pháp, vào một mê cung các mật mã, bí ẩn tôn giáo và âm mưu cổ đại.",
+      "number": 18
+    }
+  ],
+  "detailBorrow": [
+    {
+      "name": "Sapiens: Từ Quá Khứ Đến Hiện Tại",
+      "author": "Yuval Noah Harari",
+      "type": "Lịch sử, Non-fiction",
+      "numBerBorrow": "5",
+      "id_user": "2",
+      "id_book": "1",
+      "id": 3
+    },
+    {
+      "name": "New Sapiens: Từ Quá Khứ Đến Hiện Tại",
+      "author": "Yuval Noah Harari",
+      "type": "Lịch sử, Non-fiction",
+      "numBerBorrow": "3",
+      "id_user": "4",
+      "id_book": "1",
+      "id": 4
+    }
+  ],
+  "detailGiveback": [
+    {
+      "id_borrow": 2,
+      "id_book": "1",
+      "id_user": "2",
+      "name": "Sapiens: Từ Quá Khứ Đến Hiện Tại",
+      "author": "Yuval Noah Harari",
+      "type": "Lịch sử, Non-fiction",
+      "numBerBorrow": "1",
+      "id": 2
+    },
+    {
+      "id_borrow": 1,
+      "id_book": "1",
+      "id_user": "4",
+      "name": "Sapiens: Từ Quá Khứ Đến Hiện Tại",
+      "author": "Yuval Noah Harari",
+      "type": "Lịch sử, Non-fiction",
+      "numBerBorrow": "2",
+      "id": 3
+    }
+  ],
+  "storeBook": [
+    {
+      "id": "1",
+      "id_book": "1",
+      "name": "Sapiens: Từ Quá Khứ Đến Hiện Tại",
+      "picture_url": "/asset/book1.jpg",
+      "description": "Quyển sách khám phá lịch sử của nhân loại từ khi chúng ta là những con vật chạy trốn đến việc xây dựng các đế chế và cuộc cách mạng công nghiệp.",
+      "type": "Lịch sử, Non-fiction",
+      "author": "Yuval Noah Harari",
+      "year": "2011",
+      "detail": "Sapiens: Từ Quá Khứ Đến Hiện Tại cung cấp một cái nhìn tổng quan về lịch sử của loài người, từ khi chúng ta là những sinh vật nguyên thủy sống trong tự nhiên cho đến hiện tại, khi chúng ta đã có khả năng thay đổi môi trường và ảnh hưởng đến hành tinh. Cuốn sách chia thành bốn phần chính: Cuộc cách mạng Cognitif, Cuộc cách mạng Nông nghiệp, Cuộc cách mạng Công nghiệp và Cuộc cách mạng Thông tin.",
+      "number": 9
+    },
+    {
+      "id": "2",
+      "id_book": "2",
+      "name": "The Great Gatsby",
+      "picture_url": "/asset/book2.jpg",
+      "description": "Tác phẩm vĩ đại của văn học Mỹ, mô tả cuộc sống của tầng lớp thượng lưu vào thập kỷ 1920 thông qua câu chuyện tình đầy bi kịch của Jay Gatsby và Daisy Buchanan.",
+      "type": "Tiểu thuyết, Kinh điển",
+      "author": "F. Scott Fitzgerald",
+      "year": "1925",
+      "detail": "The Great Gatsby là một câu chuyện tình yêu, xa hoa và thất bại, đặt trong bối cảnh cuộc sống xa hoa của tầng lớp thượng lưu ở miền Đông nước Mỹ vào những năm 1920. Qua góc nhìn của nhân vật chính Nick Carraway, một nhà văn trẻ mới đến New York, chúng ta được tiếp cận với thế giới của Jay Gatsby, một triệu phú bí ẩn và bị lôi cuốn, và cuộc tình đầy bi kịch giữa Gatsby và Daisy Buchanan, một cô gái thú vị và thuộc tầng lớp thượng lưu.",
+      "number": 13
+    },
+    {
+      "id": "3",
+      "id_book": "3",
+      "name": "To Kill a Mockingbird",
+      "picture_url": "/asset/book3.jpg",
+      "description": "Quyển tiểu thuyết tưởng tượng về việc giáo dục trẻ em và cuộc chiến tranh chống phân biệt chủng tộc tại miền Nam nước Mỹ.",
+      "type": "Tiểu thuyết, Kinh điển",
+      "author": "Harper Lee",
+      "year": "1960",
+      "detail": "To Kill a Mockingbird là một câu chuyện nói về cuộc sống và cuộc chiến chống phân biệt chủng tộc tại miền Nam nước Mỹ vào những năm 1930. Qua góc nhìn của nhân vật chính Scout Finch, một cô bé tuổi thiếu niên, chúng ta được chứng kiến cuộc sống trong thị trấn nhỏ Maycomb, Alabama. Scout cùng với anh trai Jem và bạn thân Dill, trải qua những cuộc phiêu lưu và khám phá, đồng thời chứng kiến những sự phân biệt chủng tộc và sự bất công trong hệ thống tư pháp.",
+      "number": 15
+    },
+    {
+      "id": "4",
+      "id_book": "4",
+      "name": "The Alchemist",
+      "picture_url": "/asset/book4.jpg",
+      "description": "Một câu chuyện phiêu lưu về một người lính quyết định bỏ nghề để đi tìm kiếm những bí mật của cuộc sống và ý nghĩa đích thực của nó.",
+      "type": "Tiểu thuyết, Tâm lý học",
+      "author": "Paulo Coelho",
+      "year": "1988",
+      "detail": "The Alchemist là một câu chuyện về một người lính Andalusia tên là Santiago, người đam mê theo đuổi giấc mơ của mình và khám phá ý nghĩa đích thực của cuộc sống. Qua hành trình của Santiago, chúng ta được đưa vào một thế giới phép thuật và bí ẩn, trong đó những sự kiện và nhân vật đại diện cho những khía cạnh khác nhau của cuộc sống.",
+      "number": 49
+    },
+    {
+      "id": "5",
+      "id_book": "5",
+      "name": "The Catcher in the Rye",
+      "picture_url": "/asset/book5.jpg",
+      "description": "Câu chuyện xoay quanh cuộc sống của Holden Caulfield, một thiếu niên trẻ tuổi đầy phê phán và tìm kiếm ý nghĩa cuộc sống.",
+      "type": "Tiểu thuyết, Kinh điển",
+      "author": "J.D. Salinger",
+      "year": "1951",
+      "detail": "The Catcher in the Rye kể về cuộc sống của Holden Caulfield, một thiếu niên trẻ tuổi với tâm trạng phê phán và cảm giác bất mãn đối với xã hội. Holden là một nhân vật phản kháng và đầy đối đầu với các giá trị và chuẩn mực của xã hội, và quyển sách tập trung vào hành trình tâm lý và phiêu lưu của anh ta trong New York trong những ngày cuối cùng trước khi anh phải đối mặt với việc trưởng thành.",
+      "number": 15
+    },
+    {
+      "id": "6",
+      "id_book": "6",
+      "name": "The Lord of the Rings",
+      "picture_url": "/asset/book6.jpg",
+      "description": "Cuộc phiêu lưu trên vùng đất hư cấu Middle-earth, nơi đấu tranh giữa các lực lượng tốt và xấu để giành quyền sở hữu chiếc nhẫn quyền năng.",
+      "type": "Tiểu thuyết, Kỳ ảo",
+      "author": "J.R.R. Tolkien",
+      "year": "1954-1955",
+      "detail": "The Lord of the Rings là một cuộc phiêu lưu kỳ diệu trên vùng đất hư cấu có tên Middle-earth. Câu chuyện xoay quanh cuộc hành trình của một nhóm nhân vật đa dạng, bao gồm Hobbit Frodo Baggins và bạn bè của anh ta, trong việc tiêu diệt một chiếc nhẫn quyền năng độc ác được gọi là One Ring.",
+      "number": 15
+    },
+    {
+      "id": "7",
+      "id_book": "7",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "picture_url": "/asset/book7.jpg",
+      "description": "Cuốn sách đầu tiên trong loạt tiểu thuyết phép thuật Harry Potter, mô tả cuộc hành trình của Harry Potter trong trường học phù thủy Hogwarts.",
+      "type": "Tiểu thuyết, Kỳ ảo",
+      "author": "J.K. Rowling",
+      "year": "1997",
+      "detail": "Harry Potter and the Philosopher's Stone kể về cuộc sống của một cậu bé mang tên Harry Potter, người đã được gia đình nuôi dưỡng bình thường như một đứa trẻ bình thường, nhưng sau đó phát hiện ra rằng anh là một phù thủy. Cuộc sống của Harry thay đổi khi anh được nhận vào trường Hogwarts School of Witchcraft and Wizardry, một trường học ma thuật danh giá, và bắt đầu cuộc hành trình của mình trong thế giới phép thuật.",
+      "number": 30
+    },
+    {
+      "id": "8",
+      "id_book": "8",
+      "name": "The Da Vinci Code",
+      "picture_url": "/asset/book8.jpg",
+      "description": "Một câu chuyện ly kỳ xoay quanh Robert Langdon, một nhà nghiên cứu biểu tượng học, trong việc giải mã các bí ẩn lịch sử và tìm kiếm một bí mật cổ đại.",
+      "type": "Tiểu thuyết, Hành động, Bí ẩn",
+      "author": "Dan Brown",
+      "year": "2003",
+      "detail": "The Da Vinci Code kể về cuộc phiêu lưu của nhà nghiên cứu tượng học Robert Langdon khi anh tham gia vào một cuộc truy tìm để giải mã các dấu hiệu và bí mật ẩn sau bức tranh Mona Lisa của Leonardo da Vinci. Cuộc truy tìm này đưa Langdon và Sophie Neveu, một nữ cảnh sát Pháp, vào một mê cung các mật mã, bí ẩn tôn giáo và âm mưu cổ đại.",
+      "number": 18
+    },
+    {
+      "id": "9",
+      "id_book": "9",
+      "name": "The Hunger Games",
+      "picture_url": "blob:http://localhost:3000/4b071daf-a2d4-4395-86b1-09dfd19d8c72",
+      "description": "The Hunger Games đã trở thành một trong những loạt tiểu thuyết nổi tiếng và được chuyển thể thành các bộ phim cùng tên",
+      "type": "Tiểu thuyết khoa học viễn tưởng",
+      "author": "Suzanne Collins",
+      "year": "2008",
+      "detail": "The Hunger Games là một tiểu thuyết của Suzanne Collins đặt trong một tương lai tưởng tượng, nơi một quốc gia được gọi là Panem tổ chức một trò chơi sinh tồn độc đáo và tàn nhẫn. Cuốn sách khám phá về sự chiến đấu cho sự tồn tại, tình yêu và khủng hoảng xã hội.",
+      "number": 20
+    },
+    {
+      "id": "10",
+      "id_book": "10",
+      "name": "To Kill a Kingdom",
+      "picture_url": "blob:http://localhost:3000/e64af077-625e-4dc5-8abc-38a150d17143",
+      "description": "To Kill a Kingdom đã thu hút sự chú ý của độc giả với cốt truyện hấp dẫn và các yếu tố huyền bí.",
+      "type": "Tiểu thuyết giả tưởng, tiểu thuyết lãng mạn",
+      "author": "Alexandra Christo",
+      "year": "2018",
+      "detail": "To Kill a Kingdom là một tiểu thuyết của Alexandra Christo kể về cuộc gặp gỡ giữa một nàng tiên cá và một hoàng tử. Cuốn sách khám phá về sự đánh đổi, sự thay đổi và quyết định giữa tình yêu và sự phục thù.",
+      "number": "22"
+    },
+    {
+      "id_book": "1234",
+      "name": "dsad",
+      "picture_url": {},
+      "description": "dsadsa",
+      "type": "dsadsa",
+      "author": "dsadsa",
+      "year": "2111",
+      "detail": "dsadsa",
+      "number": "11",
+      "id": "6GSPwFY"
+    }
+  ],
+  "storeBook1": [
+    {
+      "id_book": "999999",
+      "url": "book0.jpg",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+.iconUser {
+    height: 40px;
+    width: 40px;
+    flex: 1;
+}
+
+.userName {
+    height: 40px;
+    margin: 0;
+    padding-top: 10px;
+    flex: 1;
+}
+
+.iconShow {
+    height: 40px;
+    width: 40px;
+    flex: 0.5;
+}
+
+
+.divHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEE8AA;
+    z-index: 2;
+}
+
+.divInfor {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 200px;
+    margin-right: 10px;
+    position: relative;
+    /* box-sizing: border-box; */
+}
+
+.menu {
+    position: absolute;
+    top: 110%;
+    left: 89px;
+    width: 120px;
+    height: 160px;
+    background-color: white;
+    display: none;
+    border: 1px solid black;
+    /* box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 10px; */
+    /* z-index: 100; */
+}
+/* .divs{
+    border-radius: 10px;
+} */
+
+.showDiv {
+    display: block;
+    /* Các thuộc tính CSS khác khi muốn hiển thị pseudo-element ::before */
+}
+
+.detailInput {
+    height: 300px;
+    width: 380px;
+    /* background-color: rebeccapurple; */
+    border: 1px solid black;
+    position: fixed;
+    left: 33%;
+    top: 7%;
+    z-index: 3;
+    display: none;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    background-color: white;
+    border-radius: 3%;
+    overflow-x: hidden;
+
+}
+
+.showDivDetail {
+    display: block;
+}
+
+.imgHome {
+    width: 150px;
+    height: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.inputSearch {
+    height: 30px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 360px;
+    outline: none
+}
+
+.changeBorder {
+    border: 2px solid blueviolet
+}
+
+.divSearch {
+    margin-top: 15px;
+   /*  height: 100px;
+    z-index: 10; */
+}
+
+.detailBookSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 10px;
+    /* font-size: 10px; */
+    overflow-wrap: break-word;
+}
+
+.divBookSearch {
+    width: 380px;
+    height: 150px;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 10px;
+}
+
+.divBookSearch:hover {
+    /* background-color: rgb(142, 133, 133); */
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.divChildren {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
