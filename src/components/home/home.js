@@ -13,7 +13,7 @@ export default function Home() {
     const nagivate = useNavigate()
     const [data, setData] = useState([])
     useEffect(() => {
-        fetch('http://localhost:8080/book')
+        fetch('https://test-d15a.onrender.com/book')
             .then((res) => res.json())
             .then((data) => { setData(data) })
     }, [])
