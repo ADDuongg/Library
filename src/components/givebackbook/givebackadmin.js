@@ -9,7 +9,7 @@ function GivebackAdmin() {
     const [dataBook1, setDataBook] = useState([]);
     /* const [dataBook, setDataBook] = useState([]); */
     useEffect(() => {
-        fetch(`http://localhost:8080/detailGiveback`)
+        fetch(`https://test-d15a.onrender.com/detailGiveback`)
             .then(res => res.json())
             .then((data) => {
                 const filteredData = data.filter(items => {
@@ -21,7 +21,7 @@ function GivebackAdmin() {
     }, [valueInput, dataGiveBack2]);
     
     useEffect(() => {
-        fetch(`http://localhost:8080/book`)
+        fetch(`https://test-d15a.onrender.com/book`)
             .then(res => res.json())
             .then(data => { setDataBook(data) })
     }, [])
@@ -40,7 +40,7 @@ function GivebackAdmin() {
             },
             body: JSON.stringify(dataBook)
         }
-        fetch(` http://localhost:8080/book/${idBook}`, option)
+        fetch(` https://test-d15a.onrender.com/book/${idBook}`, option)
             .then(() => { alert("Xác nhận thành công") })
 
         let option1 = {
@@ -49,14 +49,14 @@ function GivebackAdmin() {
                 "Content-Type": "application/json",
             },
         }
-        fetch(`http://localhost:8080/detailGiveback/${idGiveback}`, option1)
+        fetch(`https://test-d15a.onrender.com/detailGiveback/${idGiveback}`, option1)
             .then(res => res.json())
             .then(data => { setdataGiveBack2(data) })
 
     }
     function handleSort() {
         if (checkBox.current && checkBox.current.checked) {
-            fetch('http://localhost:8080/detailGiveback')
+            fetch('https://test-d15a.onrender.com/detailGiveback')
                 .then(res => res.json())
                 .then(data => {
                     const sortData = data.sort((a, b) => {
