@@ -90,7 +90,7 @@ function Detail() {
     return (
         <div className={styles.divDetail}>
             <div className={styles.divImage}>
-                <img src={`${currenBook.picture_url}`} alt='' className={styles.imgBook} />
+                <img src={currenBook.picture_url} alt='' className={styles.imgBook} />
             </div>
             <div className={styles.divInfoBook}>
                 <p><strong>Tên sách: </strong> {`${currenBook.name}`}</p>
