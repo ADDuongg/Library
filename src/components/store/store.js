@@ -13,13 +13,13 @@ function Store() {
     const [showModal, setShowModal] = useState(false)
     const [showModal1, setShowModal1] = useState(false)
     useEffect(() => {
-        fetch('http://localhost:8080/storeBook')
+        fetch('https://test-d15a.onrender.com/storeBook')
             .then(res => res.json())
             .then(data => {
                 setStore(data)
             })
 
-        fetch('http://localhost:8080/book')
+        fetch('https://test-d15a.onrender.com/book')
             .then(res => res.json())
             .then(data => { setBook(data) })
     }, [])
@@ -73,7 +73,7 @@ function Store() {
                 },
                 body: JSON.stringify(dataTakeAll)
             }
-            fetch('http://localhost:8080/book', option)
+            fetch('https://test-d15a.onrender.com/book', option)
 
 
             let dataStore = {
@@ -88,7 +88,7 @@ function Store() {
                 },
                 body: JSON.stringify(dataStore)
             }
-            fetch(`http://localhost:8080/storeBook/${bookStore.id}`, option1)
+            fetch(`https://test-d15a.onrender.com/storeBook/${bookStore.id}`, option1)
 
                 .then(() => { setShowModal(false) })
         }
@@ -145,11 +145,11 @@ function Store() {
                 "Content-Type": "application/json",
             },
         };
-        fetch(`http://localhost:8080/storeBook/${idStore}`, option)
+        fetch(`https://test-d15a.onrender.com/storeBook/${idStore}`, option)
             .then(() => {
                 alert("Xóa thành công");
                 // Gọi lại API để lấy danh sách cửa hàng mới và cập nhật state
-                fetch('http://localhost:8080/storeBook')
+                fetch('https://test-d15a.onrender.com/storeBook')
                     .then(res => res.json())
                     .then(data => {
                         setStore(data);
