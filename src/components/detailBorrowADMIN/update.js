@@ -22,7 +22,7 @@ function UpdateBook() {
         e.prevenDefault()
     }
     useEffect(()=>{
-        fetch('http://localhost:8080/detailBorrow')
+        fetch('https://test-d15a.onrender.com/detailBorrow')
         .then(res => res.json())
         .then(data =>{
             const currenBorrow = data.find(items => {
@@ -30,7 +30,7 @@ function UpdateBook() {
             })
             setCurrenBookSelect(currenBorrow)
         })
-        fetch('http://localhost:8080/book')
+        fetch('https://test-d15a.onrender.com/book')
         .then(res => res.json())
         .then(data =>{
             const currenBorrow = data.find(items => {
@@ -51,7 +51,7 @@ function UpdateBook() {
             },
             body: JSON.stringify(bookSelect),
         }
-        fetch(`http://localhost:8080/detailBorrow/${location.state.idBorrow}`, option)
+        fetch(`https://test-d15a.onrender.com/detailBorrow/${location.state.idBorrow}`, option)
         .then(()=>{alert("Update thành công")})
         .then(() => {navigate('/DetailBorrow')})
 
@@ -68,7 +68,7 @@ function UpdateBook() {
             },
             body: JSON.stringify(BookUpdate),
         }
-        fetch(`http://localhost:8080/book/${location.state.idBook}`, option1)
+        fetch(`https://test-d15a.onrender.com/book/${location.state.idBook}`, option1)
        
     }
     console.log(currenBook);
