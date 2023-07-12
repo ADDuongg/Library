@@ -14,7 +14,7 @@ function Detail() {
     const [numberBook, setNumberBook] = useState(0)
     /* const [dataBook, setDataBook] = useState({}) */
     useEffect(() => {
-        fetch('http://localhost:8080/book')
+        fetch('https://test-d15a.onrender.com/book')
             .then(res => res.json())
             .then((data) => {
                 const curren = data.find((items) => {
@@ -70,7 +70,7 @@ function Detail() {
             alert("Lỗi mượn sách");
             setNumberInput(0)
         } else {
-            fetch('http://localhost:8080/detailBorrow', option1)
+            fetch('https://test-d15a.onrender.com/detailBorrow', option1)
                 .then(res => res.json())
                 .then(() => {
                     alert(`Mượn ${numberInput} cuốn ${currenBook.name} thành công`);
@@ -78,7 +78,7 @@ function Detail() {
                 setNumberBook(numberBook - numberInput)
                 setNumberInput(0)
             
-            fetch(`http://localhost:8080/Book/${currenBook.id}`, option2)
+            fetch(`https://test-d15a.onrender.com/book/${currenBook.id}`, option2)
                 .then(res => res.json())
                 .then(() => {
                 })
