@@ -31,7 +31,7 @@ function SroreUpdate() {
         setPictureBook(URL.createObjectURL(file));
     }
     useEffect(()=>{
-        fetch("http://localhost:8080/storeBook")
+        fetch("https://test-d15a.onrender.com/storeBook")
         .then(res => res.json())
         .then(data =>{
             const dataChange = data.find(items => {
@@ -40,7 +40,7 @@ function SroreUpdate() {
             setBookChange(dataChange)
         })
 
-        fetch("http://localhost:8080/book")
+        fetch("https://test-d15a.onrender.com/book")
         .then(res => res.json())
         .then(data =>{
             const dataBook = data.find(items => {
@@ -69,7 +69,7 @@ function SroreUpdate() {
             },
             body: JSON.stringify(dataBookChange1)
         }
-        fetch(`http://localhost:8080/book/${location.state.idBook}`, option1)
+        fetch(`https://test-d15a.onrender.com/book/${location.state.idBook}`, option1)
 
 
         
@@ -91,7 +91,7 @@ function SroreUpdate() {
             },
             body: JSON.stringify(dataBookChange)
         }
-        fetch(`http://localhost:8080/storeBook/${location.state.idStore}`, option)
+        fetch(`https://test-d15a.onrender.com/storeBook/${location.state.idStore}`, option)
         .then(()=>{alert("Cập nhật thông tin sách thành công")})
         .then(()=>{navigate('/store')})
         .catch(err => console.log(err))
