@@ -1,7 +1,6 @@
 import styles from '../login/login.module.css'
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import {clsx} from 'clsx'
 export default function Login() {
     
     const nagivate = useNavigate()
@@ -13,7 +12,7 @@ export default function Login() {
     const [role, setRole] = useState('')
     
     useEffect(() => {
-        fetch('http://localhost:8080/login')
+        fetch('https://test-d15a.onrender.com/login')
             .then(res => res.json())
             .then((data) => {
                 const isLogin = data.some(function (item) {
