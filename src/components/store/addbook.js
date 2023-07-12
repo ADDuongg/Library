@@ -21,7 +21,7 @@ function AddBook() {
     setPictureBook(file)
   }
   useEffect(() => {
-    fetch('http://localhost:8080/book')
+    fetch('https://test-d15a.onrender.com/book')
       .then(res => res.json())
       .then(data => setBook(data))
   }, [])
@@ -53,7 +53,7 @@ function AddBook() {
         },
         body: JSON.stringify(data)
       }
-      fetch(`http://localhost:8080/storeBook`, option)
+      fetch(`https://test-d15a.onrender.com/storeBook`, option)
         .then(() => { alert("Thêm sách thành công") })
         .then(() => { navigate('/store') })
         .catch(err => console.log(err))
