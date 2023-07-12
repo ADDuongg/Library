@@ -15,7 +15,7 @@ function Giveback() {
 
     /* const [dataBook, setDataBook] = useState([]); */
     useEffect(() => {
-        fetch(`http://localhost:8080/detailBorrow`)
+        fetch(`https://test-d15a.onrender.com/detailBorrow`)
             .then(res => res.json())
             .then((data) => {
                 const filteredData = data.filter(items => {
@@ -31,7 +31,7 @@ function Giveback() {
     }, [valueInput, numberBorrow, dataBookBorrow]);
     function handleSort() {
         if (checkBox.current && checkBox.current.checked) {
-            fetch('http://localhost:8080/detailBorrow')
+            fetch('https://test-d15a.onrender.com/detailBorrow')
                 .then(res => res.json())
                 .then(data => {
                     const sort = data.filter(items => {
@@ -60,7 +60,7 @@ function Giveback() {
                 "Content-Type": "application/json",
             },
         }
-        fetch(`http://localhost:8080/detailBorrow/${idBorrow}`, option2)
+        fetch(`https://test-d15a.onrender.com/detailBorrow/${idBorrow}`, option2)
             .then(res => res.json())
             .then((data) => {
                 setDataBookBorrow(data)
@@ -90,7 +90,7 @@ function Giveback() {
                 body: JSON.stringify(dataGiveback)
             };
     
-            fetch('http://localhost:8080/detailGiveback', option)
+            fetch('https://test-d15a.onrender.com/detailGiveback', option)
                 .then(res => res.json())
                 .then(() => {
                     alert("Trả sách thành công");
