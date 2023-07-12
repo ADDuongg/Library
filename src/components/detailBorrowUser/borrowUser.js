@@ -12,7 +12,7 @@ function BorrowUser() {
 
     /* const [dataBook, setDataBook] = useState([]); */
     useEffect(() => {
-        fetch(`http://localhost:8080/detailBorrow`)
+        fetch(`https://test-d15a.onrender.com/detailBorrow`)
             .then(res => res.json())
             .then((data) => {
                 const filteredData = data.filter(items => {
@@ -37,10 +37,10 @@ function BorrowUser() {
                 "Content-Type": "application/json",
             },
         }
-        fetch(`http://localhost:8080/detailBorrow/${idBorrow}`, option2)
+        fetch(`https://test-d15a.onrender.com/detailBorrow/${idBorrow}`, option2)
             .then(res => res.json())
             .then(() => {
-                fetch(`http://localhost:8080/book`)
+                fetch(`https://test-d15a.onrender.com/book`)
                     .then(res => res.json())
                     .then(data => {
                         const currenBookSelect = data.find((items) => {
@@ -64,13 +64,13 @@ function BorrowUser() {
             },
             body: JSON.stringify(bookSelect),
         }
-        fetch(`http://localhost:8080/book/${dataBookBorrow.id}`, option)
+        fetch(`https://test-d15a.onrender.com/book/${dataBookBorrow.id}`, option)
             .then(res => res.json())
             .catch(err => console.log('lỗi rồi'))
     }, [dataBookBorrow])
     function handleSort() {
         if (checkBox.current && checkBox.current.checked) {
-            fetch('http://localhost:8080/detailBorrow')
+            fetch('https://test-d15a.onrender.com/detailBorrow')
                 .then(res => res.json())
                 .then(data => {
                     const sort = data.filter(items => {
