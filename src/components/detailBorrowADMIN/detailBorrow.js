@@ -20,7 +20,7 @@ function DetailBorrowAdmin() {
     const [dataBookSelect, setDataBookSelect] = useState([]);
     /* const [dataBook, setDataBook] = useState([]); */
     useEffect(() => {
-        fetch(`http://localhost:8080/detailBorrow`)
+        fetch(`https://test-d15a.onrender.com/detailBorrow`)
             .then(res => res.json())
             .then((data) =>{
                 /* const currenUser = data.filter((items) =>{
@@ -31,7 +31,7 @@ function DetailBorrowAdmin() {
             });
     }, [numberBorrow])
     useEffect(()=>{
-        fetch('http://localhost:8080/detailBorrow')
+        fetch('https://test-d15a.onrender.com/detailBorrow')
         .then(res => res.json())
         .then(data => {
             const dataSearch = data.filter(items => {
@@ -47,10 +47,10 @@ function DetailBorrowAdmin() {
         let option2 = {
             method: "DELETE", // *GET, POST, PUT, DELETE, etc.
         }
-        fetch(`http://localhost:8080/detailBorrow/${idBorrow}`, option2)
+        fetch(`https://test-d15a.onrender.com/detailBorrow/${idBorrow}`, option2)
             .then(res => res.json())
             .then(() => {
-                fetch(`http://localhost:8080/book`)
+                fetch(`https://test-d15a.onrender.com/book`)
                     .then(res => res.json())
                     .then((data) => {
                         /* setDataBook(data) */
@@ -77,7 +77,7 @@ function DetailBorrowAdmin() {
             },
             body: JSON.stringify(bookSelect),
         }
-        fetch(`http://localhost:8080/book/${dataBookSelect.id}`, option)
+        fetch(`https://test-d15a.onrender.com/book/${dataBookSelect.id}`, option)
             .then(res => res.json())
             .catch(err => console.log('lỗi rồi'))
     }, [dataBorrow])
@@ -85,7 +85,7 @@ function DetailBorrowAdmin() {
     
     function handleSort() {
         if (checkBox.current && checkBox.current.checked) {
-          fetch('http://localhost:8080/detailBorrow')
+          fetch('https://test-d15a.onrender.com/detailBorrow')
             .then(res => res.json())
             .then(data => {
               if (searchType === "ASC") {
